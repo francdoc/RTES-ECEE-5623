@@ -1,0 +1,246 @@
+cmd hex=0x0
+cmd hex=0xa
+cmd hex=0xa
+cmd hex=0xc
+cmd hex=0xb
+cmd hex=0xe
+START REMOTE OUTPUT
+prints as=>*****Bytes in hex=0 7c 55 6e 72 65 63 6f 67 6e 69 7a 65 64 20 63 6f 6d 6d 61 6e 64 3a 20 d a d a 43 6f 6d 6d 61 6e 64 73 3a d a 61 d a 
+END REMOTE OUTPUT 42 = 42
+START REMOTE OUTPUT
+prints as=>b
+c
+d
+
+
+|Unrecognized command: 
+
+
+Commands:*****Bytes in hex=62 d a 63 d a 64 d a d a d a 7c 55 6e 72 65 63 6f 67 6e 69 7a 65 64 20 63 6f 6d 6d 61 6e 64 3a 20 d a d a d a 43 6f 6d 6d 61 6e 64 73 3a 
+END REMOTE OUTPUT 51 = 93
+START REMOTE OUTPUT
+prints as=>
+a
+b
+c
+d
+
+
+|Unrecognized command: *****Bytes in hex=d a 61 d a 62 d a 63 d a 64 d a d a d a 7c 55 6e 72 65 63 6f 67 6e 69 7a 65 64 20 63 6f 6d 6d 61 6e 64 3a 20 
+END REMOTE OUTPUT 41 = 134
+START REMOTE OUTPUT
+prints as=>
+
+
+Commands:
+a
+b
+c
+d
+
+*****Bytes in hex=d a d a d a 43 6f 6d 6d 61 6e 64 73 3a d a 61 d a 62 d a 63 d a 64 d a d a 
+END REMOTE OUTPUT 31 = 165
+START REMOTE OUTPUT
+prints as=>|Unrecognized command: 
+
+Commands:*****Bytes in hex=c 7c 55 6e 72 65 63 6f 67 6e 69 7a 65 64 20 63 6f 6d 6d 61 6e 64 3a 20 c d a d a 43 6f 6d 6d 61 6e 64 73 3a 
+END REMOTE OUTPUT 38 = 203
+START REMOTE OUTPUT
+prints as=>
+a
+b
+c
+d
+
+|Unrecognized command: *****Bytes in hex=d a 61 d a 62 d a 63 d a 64 d a d a b 7c 55 6e 72 65 63 6f 67 6e 69 7a 65 64 20 63 6f 6d 6d 61 6e 64 3a 20 b 
+END REMOTE OUTPUT 41 = 244
+START REMOTE OUTPUT
+prints as=>
+
+Commands:
+a
+b
+c
+d
+
+*****Bytes in hex=d a d a 43 6f 6d 6d 61 6e 64 73 3a d a 61 d a 62 d a 63 d a 64 d a d a e 
+END REMOTE OUTPUT 30 = 274
+START REMOTE OUTPUT
+prints as=>|Unrecognized command: *****Bytes in hex=7c 55 6e 72 65 63 6f 67 6e 69 7a 65 64 20 63 6f 6d 6d 61 6e 64 3a 20 e 
+END REMOTE OUTPUT 24 = 298
+START REMOTE OUTPUT
+prints as=>
+
+Commands:
+a
+b
+c
+d
+
+*****Bytes in hex=d a d a 43 6f 6d 6d 61 6e 64 73 3a d a 61 d a 62 d a 63 d a 64 d a d a 
+END REMOTE OUTPUT 29 = 327
+cmd hex=0xa
+START REMOTE OUTPUT
+prints as=>|Unrecognized command: *****Bytes in hex=7c 55 6e 72 65 63 6f 67 6e 69 7a 65 64 20 63 6f 6d 6d 61 6e 64 3a 20 
+END REMOTE OUTPUT 23 = 350
+START REMOTE OUTPUT
+prints as=>*****Bytes in hex=
+END REMOTE OUTPUT -1 = 349
+cmd hex=0xa
+START REMOTE OUTPUT
+prints as=>
+
+*****Bytes in hex=d a d a 
+END REMOTE OUTPUT 4 = 353
+START REMOTE OUTPUT
+prints as=>c
+d
+
+*****Bytes in hex=63 d a 64 d a d a 
+END REMOTE OUTPUT 8 = 361
+cmd hex=0xd
+START REMOTE OUTPUT
+prints as=>|Unrecognized command: 
+*****Bytes in hex=7c 55 6e 72 65 63 6f 67 6e 69 7a 65 64 20 63 6f 6d 6d 61 6e 64 3a 20 d a 
+END REMOTE OUTPUT 25 = 386
+cmd hex=0xad
+START REMOTE OUTPUT
+prints as=>|Unrecognized command: ­*****Bytes in hex=7c 55 6e 72 65 63 6f 67 6e 69 7a 65 64 20 63 6f 6d 6d 61 6e 64 3a 20 ad 
+END REMOTE OUTPUT 24 = 410
+cmd hex=0xda
+START REMOTE OUTPUT
+prints as=>*****Bytes in hex=
+END REMOTE OUTPUT -1 = 409
+START REMOTE OUTPUT
+prints as=>a
+b*****Bytes in hex=61 d a 62 
+END REMOTE OUTPUT 4 = 413
+START REMOTE OUTPUT
+prints as=>*****Bytes in hex=
+END REMOTE OUTPUT -1 = 412
+cmd hex=0x63
+START REMOTE OUTPUT
+prints as=>|You pressed c.
+*****Bytes in hex=7c 59 6f 75 20 70 72 65 73 73 65 64 20 63 2e d a 
+END REMOTE OUTPUT 17 = 429
+cmd hex=0x63
+START REMOTE OUTPUT
+prints as=>c|You pressed c.
+*****Bytes in hex=63 7c 59 6f 75 20 70 72 65 73 73 65 64 20 63 2e d a 
+END REMOTE OUTPUT 18 = 447
+cmd hex=0x62
+START REMOTE OUTPUT
+prints as=>*****Bytes in hex=
+END REMOTE OUTPUT -1 = 446
+cmd hex=0x62
+START REMOTE OUTPUT
+prints as=>b*****Bytes in hex=62 
+END REMOTE OUTPUT 1 = 447
+START REMOTE OUTPUT
+prints as=>*****Bytes in hex=
+END REMOTE OUTPUT -1 = 446
+START REMOTE OUTPUT
+prints as=>*****Bytes in hex=
+END REMOTE OUTPUT -1 = 445
+cmd hex=0x61
+START REMOTE OUTPUT
+prints as=>*****Bytes in hex=
+END REMOTE OUTPUT -1 = 444
+cmd hex=0x62
+START REMOTE OUTPUT
+prints as=>*****Bytes in hex=
+END REMOTE OUTPUT -1 = 443
+START REMOTE OUTPUT
+prints as=>|You pressed b.
+*****Bytes in hex=7c 59 6f 75 20 70 72 65 73 73 65 64 20 62 2e d a 
+END REMOTE OUTPUT 17 = 460
+cmd hex=0x63
+START REMOTE OUTPUT
+prints as=>*****Bytes in hex=
+END REMOTE OUTPUT -1 = 459
+cmd hex=0x63
+START REMOTE OUTPUT
+prints as=>*****Bytes in hex=
+END REMOTE OUTPUT -1 = 458
+cmd hex=0x63
+START REMOTE OUTPUT
+prints as=>|You pressed c.
+*****Bytes in hex=7c 59 6f 75 20 70 72 65 73 73 65 64 20 63 2e d a 
+END REMOTE OUTPUT 17 = 475
+cmd hex=0x63
+START REMOTE OUTPUT
+prints as=>|You pressed c.
+*****Bytes in hex=7c 59 6f 75 20 70 72 65 73 73 65 64 20 63 2e d a 
+END REMOTE OUTPUT 17 = 492
+cmd hex=0x63
+START REMOTE OUTPUT
+prints as=>*****Bytes in hex=
+END REMOTE OUTPUT -1 = 491
+START REMOTE OUTPUT
+prints as=>*****Bytes in hex=
+END REMOTE OUTPUT -1 = 490
+cmd hex=0x63
+START REMOTE OUTPUT
+prints as=>*****Bytes in hex=
+END REMOTE OUTPUT -1 = 489
+cmd hex=0x64
+START REMOTE OUTPUT
+prints as=>*****Bytes in hex=
+END REMOTE OUTPUT -1 = 488
+cmd hex=0x64
+START REMOTE OUTPUT
+prints as=>d|You pressed d.
+*****Bytes in hex=64 7c 59 6f 75 20 70 72 65 73 73 65 64 20 64 2e d a 
+END REMOTE OUTPUT 18 = 506
+cmd hex=0x64
+START REMOTE OUTPUT
+prints as=>|You pressed d.
+*****Bytes in hex=7c 59 6f 75 20 70 72 65 73 73 65 64 20 64 2e d a 
+END REMOTE OUTPUT 17 = 523
+cmd hex=0x63
+START REMOTE OUTPUT
+prints as=>*****Bytes in hex=
+END REMOTE OUTPUT -1 = 522
+cmd hex=0x61
+START REMOTE OUTPUT
+prints as=>*****Bytes in hex=
+END REMOTE OUTPUT -1 = 521
+cmd hex=0x62
+START REMOTE OUTPUT
+prints as=>*****Bytes in hex=
+END REMOTE OUTPUT -1 = 520
+START REMOTE OUTPUT
+prints as=>*****Bytes in hex=
+END REMOTE OUTPUT -1 = 519
+cmd hex=0x61
+cmd hex=0x62
+START REMOTE OUTPUT
+prints as=>*****Bytes in hex=
+END REMOTE OUTPUT -1 = 518
+cmd hex=0x61
+cmd hex=0x61
+cmd hex=0x61
+START REMOTE OUTPUT
+prints as=>a*****Bytes in hex=61 
+END REMOTE OUTPUT 1 = 519
+START REMOTE OUTPUT
+prints as=>a|You pressed a.
+a|You pressed a.*****Bytes in hex=61 7c 59 6f 75 20 70 72 65 73 73 65 64 20 61 2e d a 61 7c 59 6f 75 20 70 72 65 73 73 65 64 20 61 2e 
+END REMOTE OUTPUT 34 = 553
+cmd hex=0x61
+cmd hex=0x61
+cmd hex=0x61
+cmd hex=0x61
+cmd hex=0x61
+START REMOTE OUTPUT
+prints as=>*****Bytes in hex=
+END REMOTE OUTPUT -1 = 552
+START REMOTE OUTPUT
+prints as=>a*****Bytes in hex=61 
+END REMOTE OUTPUT 1 = 553
+START REMOTE OUTPUT
+prints as=>
+a|You pressed a.
+*****Bytes in hex=d a 61 7c 59 6f 75 20 70 72 65 73 73 65 64 20 61 2e d a 
+END REMOTE OUTPUT 20 = 573
+cmd hex=0x61

@@ -13,6 +13,8 @@
 
 int main(int argc, char** argv)
 {
+   // sudo ./serial_test /dev/ttyACM0
+   
    int type = 0;
 
    if(argc < 2)
