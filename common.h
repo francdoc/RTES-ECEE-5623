@@ -1,3 +1,5 @@
+#pragma once
+
 #include <stdint.h>
 #include <stddef.h>
 
@@ -21,6 +23,13 @@ typedef double float64;
 typedef long double float128;
 
 typedef int error;
+
+typedef int64 (*OSAL_unix_nano)(void);
+
+typedef struct
+{
+    error (*sleep)(int64 milliseconds);
+} OSAL_Sleep;
 
 typedef struct
 {
